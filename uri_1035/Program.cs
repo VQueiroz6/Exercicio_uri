@@ -6,7 +6,7 @@ namespace uri_1035
     {
         static void Main(string[] args)
         {
-            string[] leitura = Console.ReadLine().Split('  ');
+            string[] leitura = Console.ReadLine().Split(' ');
 
             int A = int.Parse(leitura[0]);
             int B = int.Parse(leitura[1]);
